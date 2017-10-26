@@ -7,6 +7,3 @@ function theme_enqueue_styles() {
        array('parent-style')
    );
 }
-
-/* Lynda override option */
-// @import url("../twentyseventeen/style.css");

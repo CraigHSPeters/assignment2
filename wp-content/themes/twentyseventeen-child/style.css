@@ -2,38 +2,12 @@
 Theme Name: Twenty Seventeen Child
 Theme URI: 
 Description: A child theme of twentyseventeen
-Author: Craig Peters
+Author: Megan Wilson
 Author URI: 
 Template: twentyseventeen
 Version: 0.1.0
 */
 
-site-title a { text-shadow: 2px 2px grey; 
+.site-title {
+    color: rgb(233, 141, 21);
 }
-
-@media screen and (min-width: 48em)
-style.css?ver=4.8.2:3417
-.site-description {
-    font-size: 1.3rem;
-}
-
-body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, .colors-dark .main-navigation ul {
-    background: #042649;
-}
-
-.colors-dark .single-featured-image-header {
-    background-color: #093b61;
-}
-
-.colors-dark .single-featured-image-header { 
-	    border-bottom-color: #093b61;
-}
-
-.colors-dark .navigation-top { border-bottom-color: #093b61;
-border-top-color: #093b61;
-}
-
-.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title { font-size: 1.875rem; 
-} 
-
-
