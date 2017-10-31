@@ -32,7 +32,7 @@ Assignment 1 CSS (below)
 .site-title a { text-shadow: 2px 2px grey; 
 } 
 
-body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, .colors-dark .main-navigation ul {
+/* body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, .colors-dark .main-navigation ul {
     background: #042649;
 }
 
@@ -47,11 +47,11 @@ body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-t
 .colors-dark .navigation-top { 
     border-bottom-color: #093b61;
     border-top-color: #093b61;
-}
+} */
 
-.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title { 
+ .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title { 
     font-size: 1.875rem; 
-} 
+}  
 
 
 @media screen and (min-width: 48em) {
