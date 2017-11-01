@@ -32,6 +32,15 @@ h1, h2, h2 a, h3, h3 a, h4, h5, p {
     color: lightblue !important;
 }
 
+/* The Nav text colour */
+.navigation-top a {
+    color: lightblue !important;
+}
+
+.navigation-top a:hover {
+    color: #1a5f93 !important;
+}
+
 /* Found code to change gallery box shadow  */
 .colors-dark .entry-content a img, .colors-dark .widget a img {
     box-shadow: 0 0 0 4px #1a5f93 !important;
@@ -47,26 +56,41 @@ hr {
     border-top-color: #093b61 !important;
 }
 
+/* Widget text color */
+.colors-dark li a {
+    color: lightblue !important;
+}
+
+/* Widget horizontl line */
+.colors-dark .widget ul li {
+    border-top-color: #1a5f93 !important;
+    border-bottom-color: #1a5f93 !important;
+}
+
 /* 
 -----------------------------------------------------------------------------------------------
 Assignment 1 CSS (below)
 ----------------------------------------------------------------------------------------------- 
 */
 
-.site-title a { text-shadow: 4px 4px grey; 
+/* Title text shadow */
+.site-title a { 
+    text-shadow: 4px 4px grey; 
 } 
 
+/* Entire website background color */
  body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, 
 .colors-dark .main-navigation ul {
     background: #042649 !important;
 }
+
 
 .colors-dark .single-featured-image-header {
     background-color: #093b61 !important;
 }
 
 .colors-dark .single-featured-image-header { 
-	    border-bottom-color: #093b61 !important;
+	border-bottom-color: #093b61 !important;
 }
 
 .colors-dark .navigation-top { 
