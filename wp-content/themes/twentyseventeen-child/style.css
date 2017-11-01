@@ -37,6 +37,11 @@ h1, h2, h2 a, h3, h3 a, h4, h5, p {
     box-shadow: 0 0 0 4px #1a5f93 !important;
 } 
 
+hr {
+    background: #093b61 !important;
+
+}
+
 /* 
 -----------------------------------------------------------------------------------------------
 Assignment 1 CSS (below)
