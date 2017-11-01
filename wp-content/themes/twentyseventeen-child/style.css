@@ -37,9 +37,14 @@ h1, h2, h2 a, h3, h3 a, h4, h5, p {
     box-shadow: 0 0 0 4px #1a5f93 !important;
 } 
 
+/* Changed horizontal line between channels */
 hr {
     background: #093b61 !important;
+}
 
+/* Changed footer Border horizontal line */
+.site-footer {
+    border-top-color: #093b61 !important;
 }
 
 /* 
@@ -48,7 +53,7 @@ Assignment 1 CSS (below)
 ----------------------------------------------------------------------------------------------- 
 */
 
-.site-title a { text-shadow: 2px 2px grey; 
+.site-title a { text-shadow: 4px 4px grey; 
 } 
 
  body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, 
@@ -73,7 +78,6 @@ Assignment 1 CSS (below)
  .entry-title { 
     font-size: 1.875rem; 
 }  
-
 
 @media screen and (min-width: 48em) {
 .site-description {
