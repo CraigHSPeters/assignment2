@@ -23,9 +23,19 @@ font-family: Days One !important;
 
 /* Change Sub title to orange color */
 body.has-header-image .site-description, body.has-header-video .site-description {
-    color: #ea9a2f;
+    color: #ea9a2f !important;
     opacity: 1.0;
 }
+
+/* Change all headings and <p> color */
+h1, h2, h2 a, h3, h3 a, h4, h5, p {
+    color: lightblue !important;
+}
+
+/* Found code to change gallery box shadow  */
+.colors-dark .entry-content a img, .colors-dark .widget a img {
+    box-shadow: 0 0 0 4px #093b61 !important;
+} 
 
 /* 
 -----------------------------------------------------------------------------------------------
@@ -36,23 +46,23 @@ Assignment 1 CSS (below)
 .site-title a { text-shadow: 2px 2px grey; 
 } 
 
-/* body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, 
+ body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top, 
 .colors-dark .main-navigation ul {
-    background: #042649;
+    background: #042649 !important;
 }
 
 .colors-dark .single-featured-image-header {
-    background-color: #093b61;
+    background-color: #093b61 !important;
 }
 
 .colors-dark .single-featured-image-header { 
-	    border-bottom-color: #093b61;
+	    border-bottom-color: #093b61 !important;
 }
 
 .colors-dark .navigation-top { 
-    border-bottom-color: #093b61;
-    border-top-color: #093b61;
-} */
+    border-bottom-color: #093b61 !important;
+    border-top-color: #093b61 !important;
+} 
 
  .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) 
  .entry-title { 
